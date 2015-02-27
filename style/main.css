@@ -1,0 +1,82 @@
+﻿
+* {margin:0;padding:0;}
+body {font-family:Arial;color:#FFF;font-size:11px;text-shadow:1px 1px 1px #000;}
+h1 {font-size:22px;font-weight:bold;text-shadow:1px 1px 1px #000;}
+h2 {font-size:14px;font-weight:bold;text-shadow:1px 1px 1px #000;}
+h3 {font-size:11px;font-weight:bold;text-shadow:1px 1px 1px #000;}
+a, a:visited, a:active, a:hover {border:0px;}
+input {background:url(../image/input.png) no-repeat;height:16px;width:161px;padding:5px;border:0px;outline:0;}
+td {font-weight:bold;text-shadow:1px 1px 1px #000;}
+tr {height:25px;}
+
+h1, h2, h3 {color:#F93;}
+
+#serverstats {width:1000px;margin:0 auto;text-align:center;margin-bottom:25px;}
+#serverstats2 {width:1000px;margin:0 auto;margin-top:15px;}
+#serverstats2 table {margin:0 auto;}
+#acc {width:171px;margin:0 auto;text-align:center;}
+#logo {margin:0 auto;margin-top:125px;margin-bottom:35px;}
+
+#content {background:url(../image/con_head.png) no-repeat;margin:0 auto;padding-top:14px;width:1000px;height:100%;}
+
+.con-bg {background:url(../image/con_bg.png) repeat-y;width:1000px;height:100%;padding:20px;}
+#con-bg {background:url(../image/con_bg.png) repeat-y;width:920px;height:100%;padding:20px;}
+
+#con-bot {background:url(../image/con_foot.png) no-repeat;margin:0 auto;width:1000px;height:18px;margin-bottom:20px;}
+#navi {height:29px;margin-left:45px;width:1000px;}
+#counter-bg {width:181px;height:19px;margin:0 auto;margin-top:10px;padding-top:1px;padding-left:1px;}
+#counter {height:18px;}
+
+#con-bg .profile-left {background:#010E16;width:185px;height:400px;padding:20px;border:thin orange solid;float:left;box-shadow: 0 0 3px 3px #969696;}
+#con-bg .profile-right {background:#010E16;width:185px;height:400px;padding:20px;border:thin orange solid;float:right;box-shadow: 0 0 3px 3px #969696;}
+#con-bg .profile-main {background:transparent;z-index:1;float:none;margin-top:500px;margin-left:-20px;}
+#con-bg .profile-avatar {height:300px;background:transparent;z-index:1;position:absolute;top:450px;margin-left: auto;margin-right: auto;}
+#con-bg .profile-avatar img {max-width:400px;height:325px;margin-right:35px;border:medium orange outset;box-shadow: 0 0 3px 3px #969696;z-index:1;}
+
+h4.nosuccess {bottom:20px;background:#ff9a9a;width:436px;height:23px;border:1px solid #b30707;color:#b30707;font-size:11px;text-align:center;padding-top:7px;left:275px;position:relative;top:30px;}
+
+.success {bottom:20px;background:#b0ff9a;width:436px;height:23px;border:1px solid #2cb307;color:#2cb307;font-size:11px;text-align:center;padding-top:7px;left:275px;position:relative;top:30px;}
+.nosuccess {bottom:20px;background:#ff9a9a;width:436px;height:23px;border:1px solid #b30707;color:#b30707;font-size:11px;text-align:center;padding-top:7px;left:275px;position:relative;top:30px;}
+.locked {bottom:20px;background:#fdffc7;width:436px;height:23px;border:1px solid #8f9400;color:#8f9400;font-size:11px;text-align:center;padding-top:7px;left:275px;position:relative;top:30px;}
+.s-img {float:right;padding-right:10px;background:url(../image/success.png) no-repeat;width:14px;height:14px;}
+.n-img {float:right;padding-right:10px;background:url(../image/nosuccess.png) no-repeat;width:14px;height:14px;}
+.l-img {float:right;padding-right:10px;background:url(../image/locked.png) no-repeat;width:14px;height:14px;}
+
+/* MENU GRADIENT */
+
+#menu {
+  min-width:870px;
+  background: -webkit-linear-gradient(#002446, #000810); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#002446, #000810); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#002446, #000810); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#002446, #000810); /* Standard syntax */
+  position: fixed;
+    /* center the element */
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+    /* give it dimensions */
+  height:98px;
+  width: 60%;
+  top:0px;
+  border-radius: 0 0 25px 25px;
+  z-index:998;
+} 
+
+/* MENU_START */
+.menu{position:fixed;width:820px;height:73px;left:50%;margin-left:-410px;padding-left:0px;top:25px;z-index:998;}
+.menu ul{width:911px;height:73px;margin:0px auto;list-style:none;padding-bottom: 150px;}
+.menu ul li{min-width:103px;height:73px;float:left;}
+.menu ul li a{width:103px;height:43px;float:left;background:url(../image/button.png) no-repeat;text-decoration:none;color:#FFFFFF;text-align:center;padding-top:30px;font-size:12px;}
+.menu ul li a#last{width:103px;height:43px;float:left;background:url() no-repeat;text-decoration:none;color:#FFFFFF;text-align:center;padding-top:30px;font-size:12px;}
+.menu ul li a#large{width:203px;height:45px;float:left;background:url(../image/button_large.png) no-repeat;text-decoration:none;color:#FFFFFF;text-align:center;padding-top:28px;}
+.menu ul li a:hover{background-color:#021E2E;}
+.menu ul li a:hover#last{background-color:#021E2E;}
+.menu ul li a:hover#large{background-color:#021E2E;}
+
+#con-bg .news{width:200px;position:absolute;top: 488px;text-align:center;background:url(../../image/content.png);background-repeat: no-repeat;background-position: fixed;color: #fff;font-size: 11px; background-position: top center;font: 16px/24px freight-sans-pro, ScalaSans, "Gill Sans MT", Calibri, sans-serif;}
+#con-bg .title{width:200px;position:absolute;top: 448px;text-align:center;background:url(../images/notify.jpg);background-repeat: no-repeat;background-position: fixed;height: 40px;color: #fff;font-size: 11px; font: 16px/24px freight-sans-pro, ScalaSans, "Gill Sans MT", Calibri, sans-serif;height:40px;list-style:none;}
+
+#con-bg .posted{width:640px;height: 32px;text-align:left;color: #fff;font: 16px/24px freight-sans-pro, ScalaSans, "Gill Sans MT", Calibri, sans-serif;}
+#cen-bg .posted{width:640px;height: 32px;text-align:left;color: #fff;font: 16px/24px freight-sans-pro, ScalaSans, "Gill Sans MT", Calibri, sans-serif;}

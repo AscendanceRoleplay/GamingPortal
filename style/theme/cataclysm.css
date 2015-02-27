@@ -1,0 +1,154 @@
+﻿/* PACW - Cataclysm Theme */
+a, a:visited, a:active, a:hover {color:#F93;text-decoration:none;font-weight:bold;}
+
+html {background: url(../../image/cataclysm/bg.png) no-repeat center center fixed;   -webkit-background-size: cover;  -moz-background-size: cover;  -o-background-size: cover;  background-size: cover;}
+
+/* body {background:url(../../image/cataclysm/bg.png) no-repeat top center #010101;} */
+input[type=submit] {background:url(../../image/cataclysm/submit.png) no-repeat;height:26px;width:70px;}
+input[type=submit]:hover {background:url(../../image/cataclysm/submit_hov.png) no-repeat;}
+#logo {background:url(../../image/cataclysm/logo.png) no-repeat;height:146px;width:302px;}
+
+.link1 {background:url(../../image/cataclysm/account.png) no-repeat;width:200px;height:29px;float:left;border:0px;}
+.link1:hover {background:url(../../image/cataclysm/account_hov.png) no-repeat;}
+.link2 {background:url(../../image/cataclysm/status.png) no-repeat;width:200px;height:29px;margin:0px 0px 0px 425px;border:0px;position:absolute;}
+.link2:hover {background:url(../../image/cataclysm/status_hov.png) no-repeat;}
+.link3 {background:url(../../image/cataclysm/howtocon.png) no-repeat;width:200px;height:29px;margin:0px 0px 0px 825px;border:0px;position:absolute;}
+.link3:hover {background:url(../../image/cataclysm/howtocon_hov.png) no-repeat;}
+.link4 {background:url(../../image/cataclysm/vote.png) no-repeat;width:80px;height:29px;float:left;border:0px;}
+.link4:hover {background:url(../../image/cataclysm/vote_hov.png) no-repeat;}*/
+.link5 {background:url(../../image/cataclysm/forums.png) no-repeat;width:80px;height:29px;float:left;border:0px;}
+.link5:hover {background:url(../../image/cataclysm/forums_hov.png) no-repeat;} */
+
+h1, h2, h3 {color:#F93;}
+
+.sep {background:url(../../image/cataclysm/separator.png) no-repeat;width:1000px;height:13px;margin:0 auto;}
+.smp {background:url(../../image/cataclysm/separator_small.png) no-repeat;width:450px;height:13px;position: absolute;}
+#counter-bg {background:url(../../image/cataclysm/counter_bg.png) no-repeat;}
+#counter {background:url(../../image/cataclysm/counter.png) repeat-x;}
+
+.button {margin-left:auto;margin-right:auto;margin-top:25px;margin-bottom:0px;}
+
+.profile{
+
+}
+
+.profilefield {
+    width:49%;
+    padding:1em;
+}
+.profilefield:first-child {float:left;}
+.profilefield input {
+    width:100%;
+    border:2px solid #cce;
+}
+
+.profilefield input[type=text] {
+  -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s, box-shadow 2s, border 2s;
+  transition:width 2s, height 2s, background-color 2s, transform 2s, box-shadow 2s, border 2s;
+  box-sizing: border-box; /* this is the key */
+  background-image:none;
+  background-color:#F93;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  appearance: none;
+  box-shadow: 0 0 5px 1px #F93;
+  border-radius: none;
+  border: solid 1px transparent;
+  height: 100%;
+}
+.profilefield input[type=text]:focus {
+  -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s, box-shadow 2s, border 2s;
+  transition:width 2s, height 2s, background-color 2s, transform 2s, box-shadow 2s, border 2s;
+  outline: none;
+  border: solid 1px #707070;
+  background-color:#707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+
+.profilefield textarea {
+    width:100%;
+    border:2px solid #cce;
+}
+.profilefield textarea[type=text] {
+  -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s, box-shadow 2s, border 2s;
+  transition:width 2s, height 2s, background-color 2s, transform 2s, box-shadow 2s, border 2s;
+  box-sizing: border-box; /* this is the key */
+  background-image:none;
+  background-color:#F93;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  appearance: none;
+  box-shadow: 0 0 5px 1px #F93;
+  border-radius: none;
+  border: solid 1px transparent;
+  height: 200px;
+}
+.profilefield textarea[type=text]:focus {
+  -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s, box-shadow 2s, border 2s;
+  transition:width 2s, height 2s, background-color 2s, transform 2s, box-shadow 2s, border 2s;
+  outline: none;
+  border: solid 1px #707070;
+  background-color:#707070;
+  box-shadow: 0 0 5px 1px #969696;
+  height:400px;
+}
+
+.profile-main textarea {
+    width:100%;
+    border:2px solid #cce;
+}
+.profile-main textarea[type=text] {
+  -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s, box-shadow 2s, border 2s;
+  transition:width 2s, height 2s, background-color 2s, transform 2s, box-shadow 2s, border 2s;
+  box-sizing: border-box; /* this is the key */
+  background-image:none;
+  background-color:#F93;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  appearance: none;
+  box-shadow: 0 0 5px 1px #F93;
+  border-radius: none;
+  border: solid 1px transparent;
+  height: 200px;
+}
+.profile-main textarea[type=text]:focus {
+  -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s, box-shadow 2s, border 2s;
+  transition:width 2s, height 2s, background-color 2s, transform 2s, box-shadow 2s, border 2s;
+  outline: none;
+  border: solid 1px #707070;
+  background-color:#707070;
+  box-shadow: 0 0 5px 1px #969696;
+  height:400px;
+}
+
+.editprofile {
+  padding-right:50px;
+  margin-right:50px;
+}
+
+.editprofile:hover {
+  padding-right:50px;
+  margin-right:50px;
+}
+
+.editprofile a {
+  -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s, box-shadow 2s, border 2s, text-shadow 2s;
+  transition:width 2s, height 2s, background-color 2s, transform 2s, box-shadow 2s, border 2s, text-shadow 2s;
+  color:#F93;
+  font-size: 14px;
+  background-color:transparent;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.editprofile a:hover {
+  -webkit-transition:width 2s, height 2s, background-color 2s, -webkit-transform 2s, box-shadow 2s, border 2s, text-shadow 2s;
+  transition:width 2s, height 2s, background-color 2s, transform 2s, box-shadow 2s, border 2s, text-shadow 2s;
+  color:#F93;
+  font-size: 14px;
+  background-color:#969696;
+  box-shadow: 0 0 3px 3px #969696;
+}
